@@ -1,0 +1,17 @@
+<GovTalkMessage xmlns="http://www.govtalk.gov.uk/CM/envelope">
+  <EnvelopeVersion>2.0</EnvelopeVersion>
+  <Header>
+    <MessageDetails>
+      <Class>HMRC-VAT-DEC-TIL</Class>
+      <Qualifier>poll</Qualifier>
+      <Function>submit</Function>
+      <CorrelationID>32ADFD2A4F844480B2FDD7EE9AE9155C</CorrelationID>
+      <Transformation>XML</Transformation>
+    </MessageDetails>
+    <SenderDetails />
+  </Header>
+  <GovTalkDetails>
+    <Keys />
+  </GovTalkDetails>
+  <Body />
+</GovTalkMessage>

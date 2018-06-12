@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GovTalkMessage xmlns="http://www.govtalk.gov.uk/CM/envelope">
+    <EnvelopeVersion>2.0</EnvelopeVersion>
+    <Header>
+        <MessageDetails>
+            <Class>HMRC-VAT-DEC-TIL</Class>
+            <Qualifier>acknowledgement</Qualifier>
+            <Function>submit</Function>
+            <TransactionID></TransactionID>
+            <CorrelationID>595663BCD4D84C9BBFEA62D3D06AB93C</CorrelationID>
+            <ResponseEndPoint PollInterval="10">https://test-transaction-engine.tax.service.gov.uk/poll</ResponseEndPoint>
+            <GatewayTimestamp>2018-05-08T13:24:55.373</GatewayTimestamp>
+        </MessageDetails>
+        <SenderDetails/>
+    </Header>
+    <GovTalkDetails>
+        <Keys/>
+    </GovTalkDetails>
+    <Body/>
+</GovTalkMessage>

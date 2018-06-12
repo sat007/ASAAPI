@@ -1,0 +1,70 @@
+<GovTalkMessage xmlns="http://www.govtalk.gov.uk/CM/envelope">
+  <EnvelopeVersion>2.0</EnvelopeVersion>
+  <Header>
+    <MessageDetails>
+      <Class>HMRC-VAT-DEC-TIL</Class>
+      <Qualifier>request</Qualifier>
+      <Function>submit</Function>
+      <CorrelationID></CorrelationID>
+      <Transformation>XML</Transformation>
+      <GatewayTest>1</GatewayTest>
+    </MessageDetails>
+    <SenderDetails>
+      <IDAuthentication>
+        <SenderID>VATDEC180a01</SenderID>
+        <Authentication>
+          <Method>clear</Method>
+          <Role>principal</Role>
+          <Value>testing1</Value>
+        </Authentication>
+      </IDAuthentication>
+      <EmailAddress>asavattest@gmail.com</EmailAddress>
+    </SenderDetails>
+  </Header>
+  <GovTalkDetails>
+    <Keys>
+      <Key Type="VATRegNo">999900001</Key>
+    </Keys>
+    <ChannelRouting>
+      <Channel>
+        <URI>7468</URI>
+        <Product>ASA Software Pro</Product>
+        <Version>2.02</Version>
+      </Channel>
+    </ChannelRouting>
+  </GovTalkDetails>
+  <Body>
+    <IRenvelope xmlns="http://www.govtalk.gov.uk/taxation/vat/vatdeclaration/2">
+      <IRheader>
+        <Keys>
+          <Key Type="VATRegNo">999900001</Key>
+        </Keys>
+        <PeriodID>2017-12</PeriodID>
+        <Principal>
+          <Contact>
+            <Name>
+              <Ttl>Mr</Ttl>
+              <Fore>Sat</Fore>
+              <Fore>false</Fore>
+              <Sur>Gat</Sur>
+            </Name>
+            <Email>asavattest@gmail.com</Email>
+          </Contact>
+        </Principal>
+        <IRmark Type="generic">m6ZPjzz/+pkbKFvwP1VEkSi21Fc=</IRmark>
+        <Sender>Individual</Sender>
+      </IRheader>
+      <VATDeclarationRequest>
+        <VATDueOnOutputs>1.50</VATDueOnOutputs>
+        <VATDueOnECAcquisitions>0.50</VATDueOnECAcquisitions>
+        <TotalVAT>2.00</TotalVAT>
+        <VATReclaimedOnInputs>2.00</VATReclaimedOnInputs>
+        <NetVAT>0.00</NetVAT>
+        <NetSalesAndOutputs>20</NetSalesAndOutputs>
+        <NetPurchasesAndInputs>10</NetPurchasesAndInputs>
+        <NetECSupplies>10</NetECSupplies>
+        <NetECAcquisitions>5</NetECAcquisitions>
+      </VATDeclarationRequest>
+    </IRenvelope>
+  </Body>
+</GovTalkMessage>
