@@ -41,7 +41,7 @@ namespace ASA.API.Controllers
                 try
                 {
                     //ASA
-                    var apiKey = "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";
+                    var apiKey = "";
                     //var apiKey = Environment.GetEnvironmentVariable("ASA");
                     var client = new SendGridClient(apiKey);
                     var from = new EmailAddress("asasoftwaresolutions@outlook.com", "VAT-Submission");
